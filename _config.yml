@@ -1,3 +1,6 @@
+title: Jean-Marie LEMETAYER
+description: Enthusiast embedded systems engineer
+
 baseurl: ""
 
 defaults:
@@ -10,6 +13,9 @@ exclude:
     - Gemfile*
     - LICENSE.md
     - README.md
+
+gems:
+    - jekyll-seo-tag
 
 sass:
     style: compressed
