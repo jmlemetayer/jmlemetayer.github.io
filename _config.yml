@@ -1,4 +1,9 @@
+baseurl: ""
+
 exclude:
     - Gemfile*
     - LICENSE.md
     - README.md
+
+sass:
+    style: compressed
