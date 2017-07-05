@@ -2,6 +2,7 @@ title: Jean-Marie LEMETAYER
 description: Enthusiast embedded systems engineer
 
 baseurl: ""
+url: https://jml.bzh
 
 social:
     gitlab: https://gitlab.com/jmlemetayer
@@ -41,7 +42,7 @@ sass:
 prose:
     media: media
     rooturl: _posts
-    siteurl: https://jmlemetayer.github.io
+    siteurl: https://jml.bzh
     metadata:
         _posts:
             - name: layout
