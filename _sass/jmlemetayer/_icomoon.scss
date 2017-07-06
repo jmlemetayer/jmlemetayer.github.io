@@ -1,0 +1,55 @@
+@font-face {
+	font-family: "blog";
+	src: url("#{$baseurl}/fonts/blog.eot?2k84rq");
+	src: url("#{$baseurl}/fonts/blog.eot?2k84rq#iefix") format("embedded-opentype"),
+	     url("#{$baseurl}/fonts/blog.ttf?2k84rq") format("truetype"),
+	     url("#{$baseurl}/fonts/blog.woff?2k84rq") format("woff"),
+	     url("#{$baseurl}/fonts/blog.svg?2k84rq#blog") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+.icon {
+	display: inline-block;
+
+	font-family: "blog";
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+
+	text-rendering: auto;
+	text-transform: none;
+	speak: none;
+
+	/* Better font rendering */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	/* Large */
+	font-size: (4em / 3);
+	line-height: (3em / 4);
+	vertical-align: -15%;
+
+	/* Fixed Width */
+	width: (18em / 14);
+	text-align: center;
+}
+
+.icon-location:before		{ content: "\e902" }
+.icon-key:before		{ content: "\e904" }
+.icon-github:before		{ content: "\e900" }
+.icon-love:before		{ content: "\e901" }
+.icon-stackoverflow:before	{ content: "\e903" }
+.icon-linkedin:before		{ content: "\e905" }
+.icon-gitlab:before		{ content: "\e908" }
+
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: 0;
+}

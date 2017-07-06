@@ -2,6 +2,8 @@
 ---
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
 
+$baseurl:			"{{ site.baseurl }}";
+
 $breakpoint-max-phone:		768px;
 $breakpoint-min-tablet:		768px;
 $breakpoint-max-tablet:		1024px;
@@ -11,3 +13,4 @@ $breakpoint-min-laptop:		1024px;
 @import "sindresorhus/github-markdown";
 @import "mojombo/github-syntax";
 @import "jmlemetayer/common";
+@import "jmlemetayer/icomoon";

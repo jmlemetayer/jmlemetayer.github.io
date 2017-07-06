@@ -13,6 +13,7 @@ exclude:
     - Gemfile*
     - LICENSE.md
     - README.md
+    - icomoon.json
 
 gems:
     - jekyll-seo-tag
