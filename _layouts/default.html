@@ -1,4 +1,20 @@
 ---
 layout: empty
 ---
-{{ content }}
+<div id="body">
+	<div id="main">
+		<header>
+			<h1>{{ site.title }}</h1>
+			<h2>{{ site.description }}</h2>
+			<nav>
+				<a href="{{ site.baseurl }}/">Home</a>
+			</nav>
+		</header>
+		<main>
+			{{ content }}
+		</main>
+	</div>
+	<footer>
+		<p>Made with love and open source</p>
+	</footer>
+</div>
