@@ -3,6 +3,11 @@ description: Enthusiast embedded systems engineer
 
 baseurl: ""
 
+social:
+    gitlab: https://gitlab.com/jmlemetayer
+    linkedin: https://www.linkedin.com/in/jmlemetayer
+    stackoverflow: https://stackoverflow.com/users/2893600/jml
+
 defaults:
     - scope:
         path: ""
