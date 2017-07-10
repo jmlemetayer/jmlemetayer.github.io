@@ -21,7 +21,11 @@ exclude:
     - icomoon.json
 
 gems:
+    - jekyll-feed
+    - jekyll-mentions
     - jekyll-seo-tag
+    - jekyll-sitemap
+    - jemoji
 
 sass:
     style: compressed
