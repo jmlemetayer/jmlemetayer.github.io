@@ -10,9 +10,17 @@ social:
 
 defaults:
     - scope:
-        path: ""
+        type: pages
       values:
         layout: default
+    - scope:
+        type: posts
+      values:
+        layout: posts
+        published: false
+        categories: uncategorized
+
+permalink: /:year/:month/:day/:title/
 
 exclude:
     - Gemfile*

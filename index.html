@@ -1,3 +1,13 @@
 ---
 ---
-<p>Wait for it...</p>
+{% if site.posts == empty %}
+<p>Oops, there are no posts yet.</p>
+{% else %}
+{% for post in site.posts %}
+<article>
+	<a href="{{ site.baseurl }}{{ post.url}}"><h1>{{ post.title }}</h1></a>
+	<time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
+	<p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+</article>
+{% endfor %}
+{% endif %}

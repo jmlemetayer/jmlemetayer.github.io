@@ -1,0 +1,17 @@
+main {
+	article + article { margin-top: 60px }
+
+	time {
+		&::before { content: "Published on " }
+
+		display: block;
+
+		margin-top: -15px;
+		margin-bottom: 15px;
+
+		font-size: .9em;
+		font-style: italic;
+
+		color: darken($border-color, 15%);
+	}
+}

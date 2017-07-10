@@ -12,6 +12,7 @@ $breakpoint-min-laptop:		1024px;
 $background-color:		white;
 $text-color:			black;
 $highlight-color:		#ff5252;
+$border-color:			#eaecef;
 
 @import "necolas/normalize";
 @import "sindresorhus/github-markdown";
@@ -19,4 +20,5 @@ $highlight-color:		#ff5252;
 @import "jmlemetayer/common";
 @import "jmlemetayer/icomoon";
 @import "jmlemetayer/header";
+@import "jmlemetayer/main";
 @import "jmlemetayer/footer";
