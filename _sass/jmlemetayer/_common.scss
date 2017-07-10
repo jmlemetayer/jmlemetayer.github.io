@@ -10,7 +10,13 @@ body {
 	font-size: 15px;
 	line-height: 1.5;
 
-	color: #24292e;
+	color: $text-color;
+	background-color: $background-color;
+}
+
+::selection {
+	color: $background-color;
+	background-color: $highlight-color;
 }
 
 #body {

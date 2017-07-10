@@ -9,6 +9,10 @@ $breakpoint-min-tablet:		768px;
 $breakpoint-max-tablet:		1024px;
 $breakpoint-min-laptop:		1024px;
 
+$background-color:		white;
+$text-color:			black;
+$highlight-color:		#ff5252;
+
 @import "necolas/normalize";
 @import "sindresorhus/github-markdown";
 @import "mojombo/github-syntax";

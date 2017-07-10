@@ -33,6 +33,9 @@
 	/* Fixed Width */
 	width: (18em / 14);
 	text-align: center;
+
+	/* Fancy color */
+	color: $highlight-color;
 }
 
 .icon-location:before		{ content: "\e902" }
