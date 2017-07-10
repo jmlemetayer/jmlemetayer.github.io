@@ -9,6 +9,8 @@ social:
     linkedin: https://www.linkedin.com/in/jmlemetayer
     stackoverflow: https://stackoverflow.com/users/2893600/jml
 
+disqus: jmlemetayer
+
 defaults:
     - scope:
         type: pages
@@ -20,6 +22,7 @@ defaults:
         layout: posts
         published: false
         categories: uncategorized
+        comments: true
 
 permalink: /:year/:month/:day/:title/
 
@@ -62,6 +65,11 @@ prose:
                 element: multiselect
                 alterable: true
                 label: Tags
+            - name: comments
+              field:
+                element: button
+                on: Comments enabled
+                off: Comments disabled
             - name: published
               field:
                 element: button
