@@ -1,0 +1,4 @@
+exclude:
+    - Gemfile*
+    - LICENSE.md
+    - README.md
