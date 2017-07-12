@@ -37,3 +37,32 @@ gems:
 
 sass:
     style: compressed
+
+prose:
+    media: media
+    rooturl: _posts
+    siteurl: https://jmlemetayer.github.io
+    metadata:
+        _posts:
+            - name: layout
+              field:
+                element: hidden
+                value: posts
+            - name: title
+              field:
+                element: text
+            - name: categories
+              field:
+                element: multiselect
+                alterable: true
+                label: Categories
+            - name: tags
+              field:
+                element: multiselect
+                alterable: true
+                label: Tags
+            - name: published
+              field:
+                element: button
+                on: Publish post
+                off: Do NOT publish post
