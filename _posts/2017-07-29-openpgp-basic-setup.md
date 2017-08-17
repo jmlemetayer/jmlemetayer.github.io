@@ -33,6 +33,19 @@ Restart the service:
 service rng-tools restart
 ```
 
+## Generate the master key
+
+```sh
+gpg --full-gen-key
+```
+And use the following configuration:
+
+ * Key kind: `(4) RSA (sign only)`
+ * Key size: `4096`
+ * Key expiration: `0 = key does not expire`
+
+Then you can enter your real name and email address.
+
 ## References
 
 1. [Linux magazine #168 (fr)][1]
