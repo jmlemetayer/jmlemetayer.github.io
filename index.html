@@ -1,7 +1,9 @@
+---
+---
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Identity by HTML5 UP</title>
+		<title>{{ site.github.owner.name }}</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -11,22 +13,26 @@
 		<div id="wrapper">
 			<section id="main">
 				<header>
-					<span class="avatar"><img src="assets/images/avatar.jpg" alt="" /></span>
-					<h1>Jane Doe</h1>
-					<p>Senior Psychonautics Engineer</p>
+					<span class="avatar">
+						<img src="{{ site.github.owner.avatar_url }}" alt="{{ site.github.owner.name }}" width="128" />
+					</span>
+					<h1>{{ site.github.owner.name }}</h1>
+					<ul>
+						<li>Embedded systems engineer</li>
+						<li>Open source developer</li>
+						<li>Mechanical keyboard addict</li>
+						<li>Enthusiast FPS gamer</li>
+					</ul>
 				</header>
 				<footer>
 					<ul class="icons">
-						<li><a href="#" class="icon brands fa-twitter">Twitter</a></li>
-						<li><a href="#" class="icon brands fa-instagram">Instagram</a></li>
-						<li><a href="#" class="icon brands fa-facebook-f">Facebook</a></li>
+						<li><a href="{{ site.github.owner.html_url }}" class="icon brands fa-github">GitHub</a></li>
+						<li><a href="https://stackoverflow.com/users/2893600/jmlemetayer" class="icon brands fa-stack-overflow">Stack Overflow</a></li>
+						<li><a href="https://www.linkedin.com/in/jmlemetayer" class="icon brands fa-linkedin">LinkedIn</a></li>
 					</ul>
 				</footer>
 			</section>
 			<footer id="footer">
-				<ul class="copyright">
-					<li>&copy; Jane Doe</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-				</ul>
 			</footer>
 		</div>
 		<script>
